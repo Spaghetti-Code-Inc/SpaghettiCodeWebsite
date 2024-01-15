@@ -1,9 +1,5 @@
 .filtered {
   filter: invert(1);
-  width: 150px; 
-height: 150px; 
-object-fit: cover;
-object-position: 50% 25%; 
 }
 
 #navBar {
@@ -14,6 +10,7 @@ object-position: 50% 25%;
     width: 100%;
     opacity: 80%;
 }
+
 
 #selectedMenu {
   background-color: #5E35B1;
@@ -120,4 +117,13 @@ background-color: transparent;
 
 .on-scrollbar::-webkit-scrollbar-thumb {
 background-color: #acacac;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 40%; 
+  padding: 50px; /* if you want space between the images */
 }
